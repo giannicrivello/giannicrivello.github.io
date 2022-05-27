@@ -1,0 +1,36 @@
+.staging-title {
+	width: 100vw;
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	align-items: center;
+}
+.staging-title h1 {
+	border-bottom: 5px dashed grey;
+}
+.staging-content-container {
+	display: flex;
+	height: 75vh;
+	font-size: 30px;
+	justify-content: center;
+	padding-right: 25vw;
+	color: black;
+}
+.staging-content-container ul {
+	list-style-type: none;
+}
+.staging-content-container li {
+	margin-bottom: 20px;
+}
+.staging-content-container em {
+	font-size: 15px;
+}
+.staging-content-container a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+
+
+
