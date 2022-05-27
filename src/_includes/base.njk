@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	{% include "head.njk"%}
+	<body>
+		{% include "nav.njk" %}
+
+		{{ content | safe }}
+
+		{% include "footer.njk" %}
+
+	{% block script%}
+	 <script src={{ script }} type="text/javascript"></script>
+	{% endblock %}
+	</body>
+</html>

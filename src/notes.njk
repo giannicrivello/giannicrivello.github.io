@@ -1,0 +1,9 @@
+---
+layout: staging.njk
+PageTitle: Notes
+---
+<ul>
+{% for note in notes %}
+	<li><a href=/notes/{{ note.permalink }}>{{ note.title }} <em>{{ note.date }}</em></a></li>
+{% endfor %}
+</ul>
