@@ -3,18 +3,17 @@
 		"title": "my first note",
 		"date": "10-20-2020",
 		"description": "thoughts about the software industry",
-		"permalink":"my-first-note"
+		"content": "<div><h1>I am the content</h1><p>I really hope with works, that would be cool</p></div>"
 	},
 	{
 		"title": "my second note",
 		"date": "30-40-2020",
 		"description": "thoughts about the software industry",
-		"permalink":"my-first-note"
+		"content": "<div><h1>I am the content for the second note</h1><p>I really hope with works, that would be cool</p></div>"
 	},
 	{
 		"title": "my third note",
 		"date": "20-30-10",
-		"description": "thoughts about the software industry",
-		"permalink":"my-first-note"
+		"description": "thoughts about the software industry"
 	}
 ]

@@ -7,7 +7,8 @@ pagination:
     alias: note
 permalink: "notes/{{ note.title | slug }}/"
 ---
-
+<h1>{{ note.title }}</h1>
+{{ note.content | safe }}
 
 
 

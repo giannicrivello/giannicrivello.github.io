@@ -1,0 +1,9 @@
+---
+layout: staging.njk
+PageTitle: Projects 
+---
+<ul>
+{% for project in projects %}
+	<li><a href=/projects/{{ project.title | slug }}>{{ project.title }} <em>{{ project.date }}</em></a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,23 @@
+---
+layout: base.njk
+styles: /styles/page.css
+pagination:
+    data: blogs
+    size: 1
+    alias: blog
+permalink: "blogs/{{ blog.title | slug }}/"
+---
+<div class="page-title-head">
+<h1>{{ blog.title }}</h1>
+</div>
+<div class="page-title-head">
+<h1>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.</h1>
+</div>
+<div class="page-title-head">
+{% socials blog.socials.mediumLink, blog.socials.mediumImage, blog.socials.mediumDescription %}
+{% socials blog.socials.twitterLink, blog.socials.twitterImage, blog.socials.twitterDescription %}
+{% socials blog.socials.githubLink, blog.socials.githubImage, blog.socials.githubDescription %}
+</div>
+
+
+{{ blog.content | safe }}

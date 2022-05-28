@@ -1,0 +1,13 @@
+.page-title-head {
+	width: 100vw;
+	justify-content: center;
+	display:flex;
+	font-size: 25px;
+	background-color: #383838;
+	color: #F4F0E8;
+}
+.page-title-head a {
+	margin-right: 30px;
+}
+
+
