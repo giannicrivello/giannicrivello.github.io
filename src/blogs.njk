@@ -1,9 +1,0 @@
----
-layout: staging.njk
-PageTitle: Blog 
----
-<ul>
-{% for blog in blogs %}
-	<li><a href=/blogs/{{ blog.title | slug  }}>{{ blog.title }} <em>{{ blog.date }}</em></a></li>
-{% endfor %}
-</ul>
